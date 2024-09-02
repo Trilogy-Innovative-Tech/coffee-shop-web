@@ -140,3 +140,12 @@
 
   height: 363px !important;
 }
+
+.carousel-arrow-circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
