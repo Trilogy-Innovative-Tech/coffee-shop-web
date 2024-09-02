@@ -1,9 +1,26 @@
 #background-image-container {
   width: 100%;
   height: 832px;
-  background-image: url("/img/ancient-chinese-room 4.png");
-  background-size: contain;
-  background-position: center;
+
+  #carouselExampleControls{
+    width: 100%;
+    height: 100%;
+
+    .carousel-inner{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    }
+  }
+
+  /*.carousel-item {*/
+  /*  width: 100%;*/
+  /*  height: 100%;*/
+  /*  background-size: contain;*/
+  /*  background-position: center;*/
+  /*}*/
 }
 
 #top-nav {
@@ -70,6 +87,7 @@
 
 #home-bottom-div {
   margin-top: 222px;
+
   h1 {
     font-size: 57px;
     font-family: "Cormorant Garamond", serif;
@@ -119,6 +137,6 @@
   top: -206px;
   left: 199px;
   width: 304px;
-  
+
   height: 363px !important;
 }
