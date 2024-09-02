@@ -145,7 +145,23 @@
   width: 60px;
   height: 60px;
   border-radius: 100%;
-  background-color: black;
+  background-color: white;
   opacity: 0.5;
 }
+
+.carousel-control-prev-icon{
+  background-image: url("/img/arrow_back_ios_new_24dp_000000.svg");
+}
+
+.carousel-control-next-icon{
+  background-image: url("/img/arrow_forward_ios_24dp_000000.svg");
+}
+
+.arrow{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 
