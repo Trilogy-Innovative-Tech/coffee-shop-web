@@ -1,0 +1,124 @@
+#background-image-container {
+  width: 100%;
+  height: 832px;
+  background-image: url("/img/ancient-chinese-room 4.png");
+  background-size: contain;
+  background-position: center;
+}
+
+#top-nav {
+  position: absolute;
+  margin-top: 44px;
+  height: 75px;
+  top: 44px;
+}
+
+#top-nav li {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+#left-nav-menu {
+  /*height: 16px;*/
+}
+
+#middle-title-section {
+  color: white;
+  position: relative;
+  top: 318px;
+
+  p {
+    font-size: 19px;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+}
+
+#logo-div {
+  height: 75px;
+  width: 249px;
+  background-image: url("/img/m-logo 1.png");
+  background-size: contain;
+  background-position: center;
+}
+
+#clipboard-icon-div {
+  background-image: url("/img/Clipboard.png");
+}
+
+#search-icon-div {
+  background-image: url("/img/Search.png");
+}
+
+#menu-icon-div {
+  background-image: url("/img/Circled Menu.png");
+}
+
+#right-icon-menu div {
+  height: 36px;
+  width: 36px;
+  background-size: contain;
+  background-position: center;
+}
+
+#home-bottom-div {
+  margin-top: 222px;
+  h1 {
+    font-size: 57px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  #bottom-section-title-p {
+    font-size: 15px;
+    color: #B98D58;
+  }
+
+  #bottom-section-message-p {
+    font-size: 17px;
+    color: #888682;
+  }
+
+  button {
+    background-color: #B4BB6B;
+    width: 186px;
+    height: 57px;
+    border-radius: 45px;
+    border: none;
+    color: white;
+  }
+}
+
+#coffee-image-container {
+  div {
+    height: 370px;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+#coffee-1-div {
+  width: 352px;
+  background-image: url("/img/nathan-dumlao-zUNs99PGDg0-unsplash 1.png");
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#coffee-2-div {
+  background-image: url("/img/barista-putting-lid-on-coffee-cup 1.png");
+  position: relative;
+  top: -206px;
+  left: 199px;
+  width: 304px;
+  
+  height: 363px !important;
+}
