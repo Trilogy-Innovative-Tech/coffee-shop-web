@@ -34,6 +34,15 @@
   top: 44px;
   width: 100%;
   padding: 20px;
+
+
+}
+
+#top-nav, button{
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 #top-nav li {
@@ -173,5 +182,11 @@
   visibility: hidden;
 }
 
+footer {
+  background-color: #B4BB6B;
+  position: relative;
+  bottom: 0;
+  padding: 20px;
+}
 
 

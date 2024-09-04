@@ -7,9 +7,9 @@
       <div id="left-nav-menu" class="d-flex align-items-center">
         <ul class="d-flex gap-4 align-items-center mb-0">
           <li>HOME</li>
-          <li>ABOUT US</li>
+          <li><a href="#about-section">ABOUT US</a></li>
           <li>NEWS</li>
-          <li>CONTACT US</li>
+          <li><a href="#footer-contact">CONTACT US</a></li>
           <li>SHOP</li>
         </ul>
       </div>
@@ -21,7 +21,10 @@
       <div id="right-icon-menu" class="d-flex gap-4">
         <div id="clipboard-icon-div" title="Menu"></div>
         <div id="cart-icon-div" title="Shopping Cart" class="d-flex justify-content-end">
-          <div id="shopped_item-count-div" class="rounded-circle bg-warning h-50 w-50 d-flex justify-content-center align-items-center hidden">0</div>
+          <div id="shopped_item-count-div"
+               class="rounded-circle bg-warning h-50 w-50 d-flex justify-content-center align-items-center hidden">
+            0
+          </div>
         </div>
         <div id="login-icon-div" title="Login"></div>
         <button class="btn btn-warning">Book A Table</button>
@@ -83,8 +86,19 @@
       Mon-Fri: 9 AM – 10 PM<br>
       Saturday: 9 AM – 8 PM
     </p>
-    <button>About Us</button>
+    <button><a href="#about-section">About Us</a></button>
   </section>
 </div>
+
+<section id="about-section">
+  <app-about-us/>
+</section>
+
+<footer id="footer-contact">
+  <app-contact-us/>
+
+  <p class="text-center">Copyright &copy; 2024 M Coffee. All Rights Reserved.</p>
+  <p class="text-center">Designed by Trilogy Innovative Tech</p>
+</footer>
 
 
