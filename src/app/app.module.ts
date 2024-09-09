@@ -7,13 +7,15 @@ import { HomePageComponent } from './home-page/home-page.component';
 import {NgOptimizedImage} from "@angular/common";
 import { ContactUsComponent } from './home-page/contact-us/contact-us.component';
 import { AboutUsComponent } from './home-page/about-us/about-us.component';
+import { GoogleMapComponent } from './home-page/google-map/google-map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     ContactUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    GoogleMapComponent
   ],
     imports: [
         BrowserModule,
