@@ -16,8 +16,8 @@ import { CustomerReviewComponent } from './home-page/customer-review/customer-re
     HomePageComponent,
     ContactUsComponent,
     AboutUsComponent,
-    GoogleMapComponent,
-    CustomerReviewComponent
+    CustomerReviewComponent,
+    GoogleMapComponent
   ],
     imports: [
         BrowserModule,
