@@ -10,6 +10,7 @@ import { AboutUsComponent } from './home-page/about-us/about-us.component';
 import { CustomerReviewComponent } from './home-page/customer-review/customer-review.component';
 import { SignInComponent } from './home-page/sign-in/sign-in.component';
 import { GoogleMapComponent } from './home-page/google-map/google-map.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GoogleMapComponent } from './home-page/google-map/google-map.component'
     imports: [
         BrowserModule,
         AppRoutingModule,
-        NgOptimizedImage
+        NgOptimizedImage,
+        FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
