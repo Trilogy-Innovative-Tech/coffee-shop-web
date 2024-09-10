@@ -7,8 +7,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import {NgOptimizedImage} from "@angular/common";
 import { ContactUsComponent } from './home-page/contact-us/contact-us.component';
 import { AboutUsComponent } from './home-page/about-us/about-us.component';
-import { GoogleMapComponent } from './home-page/google-map/google-map.component';
 import { CustomerReviewComponent } from './home-page/customer-review/customer-review.component';
+import { SignInComponent } from './home-page/sign-in/sign-in.component';
+import { GoogleMapComponent } from './home-page/google-map/google-map.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CustomerReviewComponent } from './home-page/customer-review/customer-re
     ContactUsComponent,
     AboutUsComponent,
     CustomerReviewComponent,
+    SignInComponent,
     GoogleMapComponent
   ],
     imports: [
