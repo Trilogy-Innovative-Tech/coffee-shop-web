@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {NgModel} from "@angular/forms";
 
 @Component({
@@ -8,6 +8,9 @@ import {NgModel} from "@angular/forms";
 })
 export class SignInComponent {
   myInput = "";
+
+  @Input()
+  displaySignIn = false;
 
   validate(ngModel: NgModel) {
     ngModel.control.markAsDirty(); /* make the control dirty when validate button

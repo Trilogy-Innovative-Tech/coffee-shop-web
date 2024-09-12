@@ -11,6 +11,7 @@ import { CustomerReviewComponent } from './home-page/customer-review/customer-re
 import { SignInComponent } from './home-page/sign-in/sign-in.component';
 import { GoogleMapComponent } from './home-page/google-map/google-map.component';
 import {FormsModule} from "@angular/forms";
+import { CreateAccountComponent } from './create-account/create-account.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {FormsModule} from "@angular/forms";
     AboutUsComponent,
     CustomerReviewComponent,
     SignInComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    CreateAccountComponent
   ],
     imports: [
         BrowserModule,

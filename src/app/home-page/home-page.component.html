@@ -26,7 +26,7 @@
             0
           </div>
         </div>
-        <div id="login-icon-div" title="Login"></div>
+        <div id="login-icon-div" title="Login" (click)="displaySignInHome=true"></div>
         <button class="btn btn-warning">Book A Table</button>
       </div>
     </nav>
@@ -101,11 +101,14 @@
   <app-customer-review/>
 </section>
 
+@if (displaySignInHome) {
+  <app-sign-in [displaySignIn]="true"/>
+}
+
 <footer id="footer-contact">
   <app-contact-us/>
 
   <p class="text-center">Copyright &copy; 2024 M Coffee. All Rights Reserved.</p>
   <p class="text-center">Designed by Trilogy Innovative Tech</p>
 </footer>
-
 
