@@ -1,0 +1,28 @@
+@if (displaySignIn) {
+    <div id="main-container" class="d-flex align-items-center justify-content-center">
+      <div class="d-flex flex-column gap-1">
+        <input type="text"
+               required
+               pattern="^[A-Za-z0-9 ]+$"
+               #inputNgModel="ngModel"
+               [(ngModel)]="myInput"
+               placeholder="Enter email address or phone number"
+               class="form-control">
+        <input type="password"
+               required
+               #inputNgModel="ngModel"
+               [(ngModel)]="myInput"
+               placeholder="Enter password"
+               class="form-control">
+        <button class="btn btn-primary" (click)="validate(inputNgModel)">Sign In</button>
+        <button class="btn btn-warning" (click)="displaySignIn=false">Cancel</button>
+        <button class="btn btn-success"><a href="http://localhost:4200/sign-up">Create Account</a></button>
+      </div>
+      @if (inputNgModel.dirty && inputNgModel.invalid) {
+        <div class="px-2 mt-1">
+          <small class="text-danger">Input can't be blank and only allow letters and digits</small>
+        </div>
+      }
+
+    </div>
+}
